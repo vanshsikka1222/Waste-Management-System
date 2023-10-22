@@ -5,7 +5,6 @@
     background-color: rgb(0, 0, 0);
 }
 
-
 /* NavBar1 using BootStrap*/
 .logo {
     display: flex;
@@ -44,7 +43,6 @@ html, body {
 body {
     margin: 0;
 }
-
 
 /* Navbar2 & Call to Action Buttons */
 .btn1 {
@@ -145,9 +143,8 @@ body {
 .home-sec .home-content {
     align-items: center;
 }
-
-
-/* About Us */
+/* ----------------------------------------------------------------------------------------------------- */
+/* About Us (HomePage)*/
 .about-sec {
     padding: 50px 0;
     display: flex;
@@ -187,7 +184,6 @@ body {
     font-style: italic;
 }
 /* ----------------------------------------------------------------------------------------------------- */
-
 /* Footer */
 footer {
     background-color: rgb(45, 45, 45);
@@ -247,7 +243,6 @@ footer .social a img:hover{
 .foot {
     color: rgb(0, 177, 0);
 }
-
 /* ----------------------------------------------------------------------------------------------------- */
 /* Donation Section */
 .don-sec {
@@ -263,6 +258,7 @@ footer .social a img:hover{
     text-align: center;
     border-radius: 5px;
     box-shadow: 0 0 15px #b4afaf;
+    font-style: normal;
     transition: all 1s;
 }
 
@@ -273,151 +269,23 @@ footer .social a img:hover{
 
 .don-sec .don-box h3 {
     margin: 15px 0 10px;
+    color: rgb(0, 177, 0);
 }
 
 .don-sec .don-box p {
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 .don-sec .don-box:hover img {
     transform: scale(1.1);
 }
-/* ----------------------------------------------------------------------------------------------------- */
-/* Missions */
-.mission {
-    padding: 150px 0;
-}
 
-
-.gallery-sec {
-    position: relative;
-    padding: 50px 0;
-}
-
-.gallery-sec .image-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    justify-content: center;
-    padding: 10px;
-}
-
-.gallery-sec .image-container .image {
-    height: 200px;
-    width: 300px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    overflow: hidden;
-}
-
-.gallery-sec .image-container .image img {
-    height: 100%;
-    width: 100%;
-    border: 5px solid #d4d4d4;
-    object-fit: cover;
-    transition: 0.2s linear;
-}
-
-.gallery-sec .image-container .image:hover img {
-    transform: scale(1.1);
-}
-
-.gallery-sec .pop-image {
-    position: fixed;
-    left: 0;
-    top: 0;
-    background: rgba(0, 0, 0, 0.8);
-    height: 100%;
-    width: 100%;
-    z-index: 100;
-    display: none;
-}
-
-.gallery-sec .pop-image span {
-    position: absolute;
-    top: 120px;
-    right: 50px;
-    font-size: 60px;
-    font-weight: bolder;
-    color: #ffffff;
-    cursor: pointer;
-    z-index: 100;
-}
-
-.gallery-sec .pop-image img {
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: 3px solid #ffffff;
-    width: 750px;
-    object-fit: cover;
+#donation h2 {
+    font-style: normal;
+    font-weight: 600;
 }
 /* ----------------------------------------------------------------------------------------------------- */
-
-/* Contact Us */
-.contact-section {
-    padding: 40px 0 80px;
-    height: 79vh;
-}
-
-.contact-section  {
-    background-image: url(./assets/image6.gif);
-    background-size: cover;
-    background-position: 100px 1456px;
-}
-
-.contact-section .contact-form .form-group {
-    margin-bottom: 15px;
-}
-
-.contact-section .contact-form .form-control {
-    height: 55px;
-    border-radius: 5px;
-}
-
-.contact-section .contact-form textarea.form-control {
-    height: 135px;
-    margin-bottom: 5px;
-}
-
-.contact-section .contact-form .form-control:focus {
-    box-shadow:rgb(0, 177, 0);
-}
-
-#contact .heading p {
-    color: rgb(0, 177, 0);
-    font-size: 1.0rem;
-    font-weight: bold;
-}
-
-#contact .heading h2 {
-    font-weight: bold;
-}
-
-#contact .heading h2 span {
-    color: rgb(0, 177, 0);
-    font-weight: bold;
-}
-/* ----------------------------------------------------------------------------------------------------- */
-
-/* Scroll Bar */
-
-::-webkit-scrollbar {
-    width: 5px;
-}
-
-::-webkit-scrollbar-track {
-    border: 7px solid transparent;
-}
-
-::-webkit-scrollbar-thumb {
-    background: #303054;
-}
-
-/* ----------------------------------------------------------------------------------------------------- */
-
-/* Gallery */
+/* Gallery Section */
 header {
     padding: 20px;
     background-color: rgb(0, 177, 0);
@@ -490,3 +358,91 @@ footer .container .mb-0 a {
     font-weight: 300;
     font-style: normal;
 }
+/* ----------------------------------------------------------------------------------------------------- */
+/* Missions Section*/
+#featured-3 .pb-2 span {
+    color: rgb(0, 177, 0);
+}
+
+.feature h3 {
+    font-style: normal;
+    color: rgb(0, 177, 0);
+    font-weight: 600;
+}
+
+.feature p {
+    font-style: normal;
+    color: rgb(0, 177, 0);
+    font-weight: 400;
+}
+
+.feature a {
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+.bg1 {
+    background: linear-gradient(90deg, rgb(0, 177, 0), rgb(0, 177, 0));
+}
+/* ----------------------------------------------------------------------------------------------------- */
+/* Contact Us */
+.contact-section {
+    padding: 40px 0 80px;
+    height: 79vh;
+}
+
+.contact-section  {
+    background-image: url(./assets/image6.gif);
+    background-size: cover;
+    background-position: 100px 1456px;
+}
+
+.contact-section .contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-section .contact-form .form-control {
+    height: 55px;
+    border-radius: 5px;
+}
+
+.contact-section .contact-form textarea.form-control {
+    height: 135px;
+    margin-bottom: 5px;
+}
+
+.contact-section .contact-form .form-control:focus {
+    box-shadow:rgb(0, 177, 0);
+}
+
+#contact .heading p {
+    color: rgb(0, 177, 0);
+    font-size: 1.0rem;
+    font-weight: bold;
+}
+
+#contact .heading h2 {
+    font-weight: bold;
+}
+
+#contact .heading h2 span {
+    color: rgb(0, 177, 0);
+    font-weight: bold;
+}
+/* ----------------------------------------------------------------------------------------------------- */
+/* Scroll Bar */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    border: 7px solid transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #303054;
+}
+/* ----------------------------------------------------------------------------------------------------- */
+/* BLOGS Section */
